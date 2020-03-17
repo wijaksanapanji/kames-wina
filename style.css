@@ -278,6 +278,14 @@ footer .attribution {
   margin-bottom: 1rem;
 }
 
+.video iframe {
+  margin: 1rem 0;
+  height: 300px;
+  width: 100%;
+}
+
+.carousel {
+}
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
@@ -295,6 +303,7 @@ footer .attribution {
   }
 
   .paralax .caption .divider {
+    width: 80%;
     margin-left: 1rem;
     margin-right: 1rem;
   }

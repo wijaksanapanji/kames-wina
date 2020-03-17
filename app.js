@@ -10,14 +10,7 @@ const countdown = setInterval(function() {
   let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   document.querySelector(".date").innerHTML =
-    days +
-    " Hari " +
-    hours +
-    " Jam " +
-    minutes +
-    " Menit " +
-    seconds +
-    " Detik";
+    days + " Hari " + hours + " Jam " + minutes + " Menit ";
 
   if (distance < 0) {
     clearInterval(countdown);
