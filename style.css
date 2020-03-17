@@ -321,8 +321,8 @@ footer .attribution {
   .couple-photo {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    width: 400px;
-    height: 400px;
+    width: 250px !important;
+    height: 250px !important;
   }
 
   .man {
